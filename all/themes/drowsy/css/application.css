@@ -1,6 +1,49 @@
-/*** Header Style - To Be Ported Eventually to Header Partial ***/
+@import url("https://fonts.googleapis.com/css?family=Exo");
+body {
+  font-family: 'Exo', sans-serif; }
+
+/*** All Header Styles - To Be Ported Eventually to Header Partial ***/
+/** Header Section **/
 .main-header {
-  height: 200px;
-  background-color: #333; }
+  background-color: #02d0ac;
+  color: #FFF; }
+
+/** Logo **/
+/** User Menu **/
+.main-header h2, .drowsy-main-menu h2 {
+  display: none; }
+
+.main-header ul, .drowsy-main-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 12px;
+  padding-right: 30px;
+  float: right;
+  color: #FFF; }
+
+.main-header li, .drowsy-main-menu li {
+  display: inline; }
+
+.drowsy-user-menu {
+  border: solid 1px #000; }
+
+.drowsy-user-menu .menu a:link,
+.drowsy-user-menu .menu a:visited,
+.drowsy-user-menu .menu a:active {
+  color: #FFF;
+  text-decoration: none; }
+
+.drowsy-user-menu .menu a:hover {
+  color: #FFF;
+  text-decoration: underline; }
+
+/*
+#02d0ac
+#1ba3e1
+#6d2908
+#6e0000
+#bb0f00
+*/
 
 /*# sourceMappingURL=application.css.map */
