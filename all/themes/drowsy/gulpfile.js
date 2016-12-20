@@ -9,7 +9,7 @@ var sass = require('gulp-sass');
 var maps = require('gulp-sourcemaps');
 
 gulp.task('compileSass', function() {
-  gulp.src("scss/style.scss")
+  gulp.src("scss/application.scss")
       .pipe(maps.init())
       .pipe(sass())
       .pipe(maps.write('./'))
