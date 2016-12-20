@@ -1,0 +1,13 @@
+name = Drowsy
+description = A Starter Theme for Drupal 7
+core = 7.x
+
+stylesheets[all][] = vendor/css/bootstrap.min.css
+stylesheets[all][] = css/style.css
+
+scripts[] = vendor/js/bootstrap.min.js
+scripts[] = js/scripts.js
+
+regions[user_menu] = User Menu
+regions[main_menu] = Main Menu
+regions[content] = Content

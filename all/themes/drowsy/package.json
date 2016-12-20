@@ -1,0 +1,24 @@
+{
+  "name": "theme-smoosh",
+  "version": "1.0.0",
+  "description": "A Drupal 7 Theme Scaffold and SASS Workflow",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jryanconklin/theme-smoosh.git"
+  },
+  "author": "J. Ryan Conklin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jryanconklin/theme-smoosh/issues"
+  },
+  "homepage": "https://github.com/jryanconklin/theme-smoosh#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.0.1",
+    "gulp-sourcemaps": "^1.5.2"
+  }
+}
