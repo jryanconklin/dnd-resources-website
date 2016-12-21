@@ -45,6 +45,10 @@ body {
 .main-content {
   flex: 1; }
 
+.content_second {
+  background-color: #6e0000;
+  color: #FFF; }
+
 /********** Main Footer Styles *********/
 .main-footer {
   font-size: .75em;

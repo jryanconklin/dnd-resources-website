@@ -50,10 +50,11 @@
         <?php endif; ?>
         <!-- End Drupal Messages -->
 
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-10">
+      <div class="content_main col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-10">
         <?php print render($page['content_main']); ?>
       </div>
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-2">
+
+      <div class="content_second col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-2">
         <?php print render($page['content_second']); ?>
       </div>
     </div>
