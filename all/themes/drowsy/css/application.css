@@ -1,42 +1,40 @@
+/*********** Available Colors ***********/
 /********* Universal Styles **********/
 @import url("https://fonts.googleapis.com/css?family=Exo");
 body {
   font-family: 'Exo', sans-serif; }
 
 /*********** Header Styles ***********/
-.main-header {
-  background-color: #02d0ac;
-  color: #FFF; }
+.jumbotron {
+  background-color: #1ba3e1;
+  margin-bottom: -10px; }
 
-.drowsy-user-menu {
+.main-header {
+  background-color: #02d0ac; }
+
+.drowsy-user-menu,
+.drowsy-main-menu {
   color: #FFF;
-  padding: 1.25em;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
-  float: right; }
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8); }
+
+.drowsy-user-menu .menu a:link,
+.drowsy-user-menu .menu a:visited,
+.drowsy-user-menu .menu a:active,
+.drowsy-user-menu .menu a:hover,
+.drowsy-main-menu .menu a:link,
+.drowsy-main-menu .menu a:visited,
+.drowsy-main-menu .menu a:active,
+.drowsy-main-menu .menu a:hover {
+  color: #FFF;
+  text-decoration: none; }
 
 .main-header h2 {
   display: none; }
 
-.main-header li, .drowsy-main-menu li {
-  font-size: 1.25em;
-  display: inline; }
-
-.drowsy-user-menu .menu a:link,
-.drowsy-user-menu .menu a:visited,
-.drowsy-user-menu .menu a:active {
-  color: #FFF;
-  text-decoration: none; }
-
-.drowsy-user-menu .menu a:hover {
-  text-transform: uppercase; }
+.drowsy-user-menu li,
+.drowsy-main-menu li {
+  display: inline-block; }
 
 /********** Main Content Styles *********/
-/*********** Available Colors ***********
-#02d0ac
-#1ba3e1
-#6d2908
-#6e0000
-#bb0f00
-*****************************************/
 
 /*# sourceMappingURL=application.css.map */

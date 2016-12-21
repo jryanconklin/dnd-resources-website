@@ -1,6 +1,7 @@
 name = Drowsy
-description = A Starter Theme for Drupal 7
+description = The Drowsy Custom Theme for Drowsy Dragon!
 core = 7.x
+engine = phptemplate
 
 stylesheets[all][] = vendor/css/bootstrap.css
 stylesheets[all][] = css/application.css
@@ -10,4 +11,5 @@ scripts[] = js/scripts.js
 
 regions[user_menu] = User Menu
 regions[main_menu] = Main Menu
-regions[content] = Content
+regions[content_main] = Main Content
+regions[content_second] = Secondary Content
