@@ -50,12 +50,20 @@
         <?php endif; ?>
         <!-- End Drupal Messages -->
 
-      <div class="col-xs-12 col-sm-12 col-md-8">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-10">
         <?php print render($page['content_main']); ?>
       </div>
-      <div class="col-xs-12 col-sm-12 col-md-4">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-2">
         <?php print render($page['content_second']); ?>
       </div>
     </div>
 
   </div> <!-- End Main Body Container -->
+
+
+
+
+<div id="footer" class="main-footer container-fluid">
+  <small class="text-muted">All Rights Reserved to J. Ryan Conklin for this Website.</small>
+  <small class="text-muted"><a href="/">Return Home</a> | <a href="#top">Back to top &raquo;</a></small>
+</div>
