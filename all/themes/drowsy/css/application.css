@@ -1,32 +1,25 @@
+/********* Universal Styles **********/
 @import url("https://fonts.googleapis.com/css?family=Exo");
 body {
   font-family: 'Exo', sans-serif; }
 
-/*** All Header Styles - To Be Ported Eventually to Header Partial ***/
-/** Header Section **/
+/*********** Header Styles ***********/
 .main-header {
   background-color: #02d0ac;
   color: #FFF; }
 
-/** Logo **/
-/** User Menu **/
-.main-header h2, .drowsy-main-menu h2 {
+.drowsy-user-menu {
+  color: #FFF;
+  padding: 1.25em;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+  float: right; }
+
+.main-header h2 {
   display: none; }
 
-.main-header ul, .drowsy-main-menu ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  padding-top: 12px;
-  padding-right: 30px;
-  float: right;
-  color: #FFF; }
-
 .main-header li, .drowsy-main-menu li {
+  font-size: 1.25em;
   display: inline; }
-
-.drowsy-user-menu {
-  border: solid 1px #000; }
 
 .drowsy-user-menu .menu a:link,
 .drowsy-user-menu .menu a:visited,
@@ -35,15 +28,15 @@ body {
   text-decoration: none; }
 
 .drowsy-user-menu .menu a:hover {
-  color: #FFF;
-  text-decoration: underline; }
+  text-transform: uppercase; }
 
-/*
+/********** Main Content Styles *********/
+/*********** Available Colors ***********
 #02d0ac
 #1ba3e1
 #6d2908
 #6e0000
 #bb0f00
-*/
+*****************************************/
 
 /*# sourceMappingURL=application.css.map */
