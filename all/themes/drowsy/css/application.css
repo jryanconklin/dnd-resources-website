@@ -1,13 +1,19 @@
 /*********** Available Colors ***********/
+/*********** Available Fonts ***********/
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Philosopher");
 /********* Universal Styles **********/
-@import url("https://fonts.googleapis.com/css?family=Exo");
 body {
-  font-family: 'Exo', sans-serif; }
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 16px; }
 
 /*********** Header Styles ***********/
 .jumbotron {
   background-color: #1ba3e1;
   margin-bottom: -10px; }
+
+img.jumbotron {
+  display: block;
+  margin: 0 auto; }
 
 .main-header {
   background-color: #02d0ac;
@@ -16,18 +22,22 @@ body {
 .drowsy-user-menu,
 .drowsy-main-menu {
   color: #FFF;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); }
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  font-size: 1.25em; }
 
 .drowsy-user-menu .menu a:link,
 .drowsy-user-menu .menu a:visited,
 .drowsy-user-menu .menu a:active,
-.drowsy-user-menu .menu a:hover,
 .drowsy-main-menu .menu a:link,
 .drowsy-main-menu .menu a:visited,
-.drowsy-main-menu .menu a:active,
-.drowsy-main-menu .menu a:hover {
+.drowsy-main-menu .menu a:active {
   color: #FFF;
   text-decoration: none; }
+
+.drowsy-user-menu .menu a:hover,
+.drowsy-main-menu .menu a:hover {
+  color: #bb0f00;
+  text-shadow: none; }
 
 .main-header h2 {
   display: none; }
@@ -45,9 +55,16 @@ body {
 .main-content {
   flex: 1; }
 
-.content_second {
-  background-color: #6e0000;
-  color: #FFF; }
+.field-type-taxonomy-term-reference .field-item {
+  display: inline;
+  margin-right: 10px; }
+
+table {
+  border-spacing: 10px;
+  border-collapse: separate; }
+
+td {
+  padding: 10px; }
 
 /********** Main Footer Styles *********/
 .main-footer {
