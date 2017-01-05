@@ -4,7 +4,7 @@ A 5th Edition Dungeons & Dragons Content Site
 ## Description
 A Drupal Website to Manage Dungeons and Dragons 5th Edition Resources. This project uses a custom theme and is currently a work in progress.
 
-<img src="sites/screenshot.png" alt="a screenshot of this project">
+<img src="screenshot.png" alt="a screenshot of this project">
 
 ## Technologies
 
